@@ -245,69 +245,27 @@
       <div class="col-md-12">         
         <div id="single-day" class="agenda-content active">           
           <h4>Single-Day Event Agenda</h4>           
-          <ul>             
-           <li>8:00 AM - 9:00 AM - Registration & Networking Breakfast
-    <br>Attendees check in and network over a light breakfast.
-</li>
-
-<li>9:00 AM - 9:15 AM - Opening Remarks
-    <br><strong>Speaker:</strong> Event Host / N4IT Representative
-    <br>A brief introduction to the event, theme, and objectives.
-</li>
-
-<li>9:15 AM - 9:45 AM - VIP Morning Keynote
-    <br><strong>Speaker:</strong> Prime Minister
-    <br><strong>Topic:</strong> "The Role of Technology in Shaping Nepal's Future"
-    <br><strong>Focus:</strong> Government’s vision for digital transformation, tech policy support, and economic growth.
-</li>
-
-<li>10:00 AM - 10:45 AM - Panel Discussion: "Building a Thriving Tech Ecosystem in Nepal"
-    <br><strong>Speakers:</strong> Local tech leaders like Amun Thapa (SastoDeal) and Rohini Rajbhandari (Swift Technology)
-    <br><strong>Topics:</strong> Startup challenges, policy support, investment in tech, and Nepal’s growth potential.
-</li>
-
-<li>10:45 AM - 11:00 AM - Break & Sponsor Highlight</li>
-
-<li>11:00 AM - 11:30 AM - Workshop Session 1: "Digital Payment Solutions and Fintech in Nepal"
-    <br><strong>Speaker:</strong> Anil Dhakal (Khalti)
-</li>
-
-<li>11:30 AM - 12:00 PM - Virtual Keynote: "Global Tech Trends and Lessons for Nepal"
-    <br><strong>Speaker:</strong> Nepali Diaspora Professional (working at Google or Microsoft)
-</li>
-
-<li>12:00 PM - 1:00 PM - Lunch Break & Networking
-    <br>Lunch for attendees; networking opportunities at sponsor booths.
-</li>
-
-<li>1:00 PM - 1:30 PM - VIP Afternoon Session
-    <br><strong>Speaker:</strong> Finance Minister
-    <br><strong>Topic:</strong> "Empowering Nepal’s Economy Through Technology Investment"
-    <br><strong>Focus:</strong> Funding opportunities, economic initiatives for the tech sector, and fiscal support for startups.
-</li>
-
-<li>1:45 PM - 2:30 PM - Panel Discussion: "Bridging the Skills Gap in Tech Education"</li>
-
-<li>2:30 PM - 2:45 PM - Afternoon Break & Sponsor Highlight</li>
-
-<li>2:45 PM - 3:30 PM - Fireside Chat: "Innovation & Investment in the Nepali Tech Industry"</li>
-
-<li>4:00 PM - 4:30 PM - VIP Evening Keynote
-    <br><strong>Speaker:</strong> Gagan Thapa
-    <br><strong>Topic:</strong> "Youth Empowerment and the Future of Tech in Nepal"
-    <br><strong>Focus:</strong> Support for young innovators, tech career pathways, and educational initiatives.
-</li>
-
-<li>4:30 PM - 5:00 PM - Closing Keynote
-    <br><strong>Speaker:</strong> Bidhya Bhattarai
-    <br><strong>Topic:</strong> "Inclusive Innovation: Bringing Technology to All"
-    <br><strong>Focus:</strong> Empowering women and underserved communities in tech, enhancing digital literacy, and broadening access.
-</li>
-
-<li>5:00 PM - 5:15 PM - Closing Remarks and Thank You
-    <br><strong>Speaker:</strong> N4IT Representative
-</li>
-      
+          <ul style="list-style-type: none; padding: 0; font-size: 1.1em;">
+            <li style="padding: 15px; border-bottom: 1px solid #333; transition: all 0.3s ease; animation: fadeIn 0.5s;">
+              <strong>8:00 AM - 9:00 AM</strong> - Registration & Networking Breakfast
+              <br>Attendees check in and network over a light breakfast.
+            </li>
+            <li style="padding: 15px; border-bottom: 1px solid #333; transition: all 0.3s ease; animation: fadeIn 0.6s;">
+              <strong>9:00 AM - 9:15 AM</strong> - Opening Remarks
+              <br><strong>Speaker:</strong> Event Host / N4IT Representative
+              <br>A brief introduction to the event, theme, and objectives.
+            </li>
+            <li style="padding: 15px; border-bottom: 1px solid #333; transition: all 0.3s ease; animation: fadeIn 0.7s;">
+              <strong>9:15 AM - 9:45 AM</strong> - VIP Morning Keynote
+              <br><strong>Speaker:</strong> Prime Minister
+              <br><strong>Topic:</strong> "The Role of Technology in Shaping Nepal's Future"
+              <br><strong>Focus:</strong> Government’s vision for digital transformation, tech policy support, and economic growth.
+            </li>
+            <!-- Additional agenda items... -->
+            <li style="padding: 15px; transition: all 0.3s ease; animation: fadeIn 1s;">
+              <strong>5:00 PM - 5:15 PM</strong> - Closing Remarks and Thank You
+              <br><strong>Speaker:</strong> N4IT Representative
+            </li>
           </ul>         
         </div>       
       </div>     
@@ -352,6 +310,18 @@
                 0 0 30px rgba(48, 1, 135, 0.4),                
                 0 0 40px rgba(48, 1, 135, 0.2);
     opacity: 1;
+  }
+
+  /* Animation for fade-in effect */
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Hover effect for agenda items */
+  ul li:hover {
+    background-color: #333;
+    transform: scale(1.02);
   }
 
 </style>
